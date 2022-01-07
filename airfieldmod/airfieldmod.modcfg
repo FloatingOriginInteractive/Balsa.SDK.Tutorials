@@ -19,7 +19,7 @@ ModCFG
 		
 		imgPath = Addons/airfieldmod/bannerImg.png		
 		posterImgPath = Addons/airfieldmod/posterImg.png	
-						
+								
 		cost = 0
 		xpCost = 0
 		availableInCareer = True
