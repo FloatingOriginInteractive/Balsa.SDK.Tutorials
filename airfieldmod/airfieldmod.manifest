@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 722869757
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scn_airfield
+      Dependencies: {}

@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: 82cc1f0733efb6a42ace1895b39e811b
+timeCreated: 1517430949
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Box02
+    100004: Box03
+    100006: Box04
+    100008: Cone01
+    100010: Cone03
+    100012: Cone04
+    100014: Cone05
+    100016: Cone06
+    100018: Cone07
+    100020: Cone08
+    100022: Cylinder01
+    100024: Cylinder03
+    100026: Cylinder04
+    100028: Cylinder05
+    100030: Cylinder06
+    100032: Cylinder07
+    100034: Cylinder08
+    100036: Cylinder09
+    100038: Cylinder10
+    100040: Cylinder11
+    100042: Cylinder12
+    100044: Cylinder15
+    100046: Cylinder16
+    100048: Cylinder17
+    100050: Cylinder18
+    100052: Cylinder19
+    100054: Cylinder20
+    100056: Cylinder21
+    100058: Cylinder22
+    100060: light
+    100062: light01
+    100064: light02
+    100066: light03
+    100068: Line02
+    100070: NGon01
+    100072: NGon02
+    100074: NGon03
+    100076: NGon04
+    100078: ring
+    100080: Torus01
+    100082: //RootNode
+    400000: Box01
+    400002: Box02
+    400004: Box03
+    400006: Box04
+    400008: Cone01
+    400010: Cone03
+    400012: Cone04
+    400014: Cone05
+    400016: Cone06
+    400018: Cone07
+    400020: Cone08
+    400022: Cylinder01
+    400024: Cylinder03
+    400026: Cylinder04
+    400028: Cylinder05
+    400030: Cylinder06
+    400032: Cylinder07
+    400034: Cylinder08
+    400036: Cylinder09
+    400038: Cylinder10
+    400040: Cylinder11
+    400042: Cylinder12
+    400044: Cylinder15
+    400046: Cylinder16
+    400048: Cylinder17
+    400050: Cylinder18
+    400052: Cylinder19
+    400054: Cylinder20
+    400056: Cylinder21
+    400058: Cylinder22
+    400060: light
+    400062: light01
+    400064: light02
+    400066: light03
+    400068: Line02
+    400070: NGon01
+    400072: NGon02
+    400074: NGon03
+    400076: NGon04
+    400078: ring
+    400080: Torus01
+    400082: //RootNode
+    2100000: pole
+    2100002: Metal_Chrome
+    2100004: 15 - Default
+    2100006: 21 - Default
+    2100008: 14 - Default
+    2100010: 08 - Default
+    2100012: 01 - Default
+    2300000: Box01
+    2300002: Box02
+    2300004: Box03
+    2300006: Box04
+    2300008: Cone01
+    2300010: Cone03
+    2300012: Cone04
+    2300014: Cone05
+    2300016: Cone06
+    2300018: Cone07
+    2300020: Cone08
+    2300022: Cylinder01
+    2300024: Cylinder03
+    2300026: Cylinder04
+    2300028: Cylinder05
+    2300030: Cylinder06
+    2300032: Cylinder07
+    2300034: Cylinder08
+    2300036: Cylinder09
+    2300038: Cylinder10
+    2300040: Cylinder11
+    2300042: Cylinder12
+    2300044: Cylinder15
+    2300046: Cylinder16
+    2300048: Cylinder17
+    2300050: Cylinder18
+    2300052: Cylinder19
+    2300054: Cylinder20
+    2300056: Cylinder21
+    2300058: Cylinder22
+    2300060: Line02
+    2300062: NGon01
+    2300064: NGon02
+    2300066: NGon03
+    2300068: NGon04
+    2300070: Torus01
+    3300000: Box01
+    3300002: Box02
+    3300004: Box03
+    3300006: Box04
+    3300008: Cone01
+    3300010: Cone03
+    3300012: Cone04
+    3300014: Cone05
+    3300016: Cone06
+    3300018: Cone07
+    3300020: Cone08
+    3300022: Cylinder01
+    3300024: Cylinder03
+    3300026: Cylinder04
+    3300028: Cylinder05
+    3300030: Cylinder06
+    3300032: Cylinder07
+    3300034: Cylinder08
+    3300036: Cylinder09
+    3300038: Cylinder10
+    3300040: Cylinder11
+    3300042: Cylinder12
+    3300044: Cylinder15
+    3300046: Cylinder16
+    3300048: Cylinder17
+    3300050: Cylinder18
+    3300052: Cylinder19
+    3300054: Cylinder20
+    3300056: Cylinder21
+    3300058: Cylinder22
+    3300060: Line02
+    3300062: NGon01
+    3300064: NGon02
+    3300066: NGon03
+    3300068: NGon04
+    3300070: Torus01
+    4300000: Cylinder01
+    4300002: Cylinder04
+    4300004: Cylinder05
+    4300006: Cylinder06
+    4300008: Cylinder07
+    4300010: Cylinder08
+    4300012: Cylinder09
+    4300014: Cone05
+    4300016: Box01
+    4300018: Cylinder12
+    4300020: Cylinder16
+    4300022: Cone06
+    4300024: Box02
+    4300026: Cylinder17
+    4300028: Cone07
+    4300030: Box03
+    4300032: Cylinder18
+    4300034: Cone08
+    4300036: Box04
+    4300038: Cylinder10
+    4300040: Cylinder11
+    4300042: Line02
+    4300044: NGon01
+    4300046: NGon02
+    4300048: NGon03
+    4300050: NGon04
+    4300052: Cylinder22
+    4300054: Cylinder21
+    4300056: Cylinder20
+    4300058: Cylinder19
+    4300060: Cylinder15
+    4300062: Torus01
+    4300064: Cone01
+    4300066: Cone03
+    4300068: Cone04
+    4300070: Cylinder03
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 581b5837855337a42a1d80da39b763c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: fb3e0a13fb7c91f49966d9a1e2314c9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 - Default
+    second: {fileID: 2100000, guid: 1ff3d2d006fc7ba41aab4958f08388ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15 - Default
+    second: {fileID: 2100000, guid: 958d289a452f749488b6e60a195a1b3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21 - Default
+    second: {fileID: 2100000, guid: bcd8f5dd81b2acf499ed62e188ccfa49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Chrome
+    second: {fileID: 2100000, guid: d8755727f0ae56c4e9df0e72d33afeb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pole
+    second: {fileID: 2100000, guid: 24160a5b33bcd174995a5e4d9c1606f3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

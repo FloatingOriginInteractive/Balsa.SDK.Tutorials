@@ -1,0 +1,28 @@
+ModCFG
+{
+	// ModCFG files describe the content contained in a mod. They are essentially a table of contents listing the configs, assets, assemblies and anything that should be loaded into the game as part of a mod.
+	// they also contain information about the mod itself, like the package title, author, version information, dependencies and so on.
+	title = Airfield
+	author = Floating Origin Studios
+	modVersion = 0.1.0
+	requiresGameVersion = 0.101.0
+
+	Scenery
+	{
+		name = Airfield
+		
+		description = This simple airfield location is a great place to start learning about map modding for Balsa.
+				
+		fobName = scn_airfield
+		abFilePath = Addons/airfieldmod/scn_airfield.fob	
+		mainScene = Assets/_scenery/airfield/scn_airfield.unity
+		
+		imgPath = Addons/airfieldmod/bannerImg.png		
+		posterImgPath = Addons/airfieldmod/posterImg.png	
+						
+		cost = 0
+		xpCost = 0
+		availableInCareer = True
+		startAvailable = True
+	}		
+}
