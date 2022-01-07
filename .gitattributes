@@ -17,3 +17,4 @@
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 balsa/Assets/packages/Fantasy[[:space:]]Adventure[[:space:]]Environment/_DemoScenes/FAE_Demo1.unity filter=lfs diff=lfs merge=lfs -text
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.fob filter=lfs diff=lfs merge=lfs -text
