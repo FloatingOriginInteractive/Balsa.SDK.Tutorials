@@ -1,28 +1,73 @@
 ModCFG
 {
-	// ModCFG files describe the content contained in a mod. They are essentially a table of contents listing the configs, assets, assemblies and anything that should be loaded into the game as part of a mod.
-	// they also contain information about the mod itself, like the package title, author, version information, dependencies and so on.
 	title = Airfield
 	author = Floating Origin Studios
 	modVersion = 0.1.0
 	requiresGameVersion = 0.101.0
-
 	Scenery
 	{
 		name = Airfield
-		
 		description = This simple airfield location is a great place to start learning about map modding for Balsa.
-				
 		fobName = scn_airfield
-		abFilePath = Addons/airfieldmod/scn_airfield.fob	
+		abFilePath = Addons/airfieldmod/scn_airfield.fob
 		mainScene = Assets/_scenery/airfield/scn_airfield.unity
-		
-		imgPath = Addons/airfieldmod/bannerImg.png		
-		posterImgPath = Addons/airfieldmod/posterImg.png	
-								
+		imgPath = Addons/airfieldmod/bannerImg.png
+		posterImgPath = Addons/airfieldmod/posterImg.png
 		cost = 0
 		xpCost = 0
 		availableInCareer = True
 		startAvailable = True
-	}		
+		mapImgPath = Addons/airfieldmod/mapImg.png
+		mapImgOriginXZ = 0, 0
+		mapImgRectSize = 1500, 1500
+	}
+	MapNodes
+	{
+		map = Airfield
+		Location
+		{
+			name = Hangars
+			aPos = -145.2,0,129.6
+			radius = 65.7
+			FastTravelNode
+			{
+				prefabName = FastTravelVehicles.WirrawayRover
+				transportName = Your Car
+				aPos = -123.759994506836,0,104.480003356934
+				wRot = 0,0.1245298,0,-0.9922159
+				arrival.pos = -2.4,0,-1.67
+				arrival.rot = 0,0.4909037,0,0.8712138
+			}
+		}
+		Location
+		{
+			name = Control Tower
+			aPos = -174.2,0,-170
+			radius = 33.5
+			FastTravelNode
+			{
+				prefabName = FastTravelVehicles.WirrawayRover
+				transportName = Your Car
+				aPos = -153.269989013672,0,-153.270004272461
+				wRot = 0,0.1245298,0,-0.9922159
+				arrival.pos = -2,0,-0.02
+				arrival.rot = 0,0.1993679,0,0.9799247
+			}
+		}
+		Location
+		{
+			name = Parking Lot
+			aPos = -1.5,0,148
+			radius = 40.68
+			FastTravelNode
+			{
+				prefabName = FastTravelVehicles.WirrawayRover
+				transportName = Your Car
+				aPos = -11.2700004577637,0,135.350006103516
+				wRot = 0,-0.9998614,0,-0.01665272
+				arrival.pos = -2,0,-0.02
+				arrival.rot = 0,0.1993679,0,0.9799247
+			}
+		}
+	}
 }
